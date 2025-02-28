@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict/>
+	</array>
+    <key>UILaunchScreen</key>
+    <dict>
+        <key>BackgroundColor</key>
+        <string>#0F0622</string>
+        <key>UILabels</key>
+        <array>
+            <dict>
+                <key>Text</key>
+                <string>Level Super Mind</string>
+                <key>FontName</key>
+                <string>Helvetica-Bold</string>
+                <key>FontSize</key>
+                <integer>24</integer>
+                <key>TextColor</key>
+                <string>#FFFFFF</string>
+                <key>Alignment</key>
+                <string>Center</string>
+            </dict>
+        </array>
+    </dict>
+
+</dict>
+</plist>

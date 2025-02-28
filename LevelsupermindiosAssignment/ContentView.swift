@@ -7,17 +7,42 @@
 
 import SwiftUI
 
+import SwiftUI
+
 struct ContentView: View {
+    
+    init() {
+        let appearance = UITabBarAppearance()
+        appearance.configureWithOpaqueBackground()
+        appearance.backgroundColor = UIColor(resource: .colorbackground)
+        
+        UITabBar.appearance().standardAppearance = appearance
+        UITabBar.appearance().scrollEdgeAppearance = appearance
+    }
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            Home()
+                .tabItem {
+                    Image(systemName: "house").font(.system(size: 50))
+                    Text("Home")
+                       
+                }
+            
+                
+            
+            Profile()
+                .tabItem {
+                    Image(systemName: "person")
+                    Text("You")
+                }
+                .tint(.white)
         }
-        .padding()
+        .tint(.white)
     }
 }
+
+
 
 #Preview {
     ContentView()
