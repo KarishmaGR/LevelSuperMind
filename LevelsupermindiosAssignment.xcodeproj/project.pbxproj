@@ -15,22 +15,9 @@
 		00F75BD72D6F5D3D0085AE7A /* LevelsupermindiosAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LevelsupermindiosAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		00D3F3322D71E2760099C351 /* Exceptions for "LevelsupermindiosAssignment" folder in "LevelsupermindiosAssignment" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 00F75BD62D6F5D3D0085AE7A /* LevelsupermindiosAssignment */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		00F75BD92D6F5D3D0085AE7A /* LevelsupermindiosAssignment */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				00D3F3322D71E2760099C351 /* Exceptions for "LevelsupermindiosAssignment" folder in "LevelsupermindiosAssignment" target */,
-			);
 			path = LevelsupermindiosAssignment;
 			sourceTree = "<group>";
 		};
