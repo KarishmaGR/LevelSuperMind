@@ -4,28 +4,30 @@
 <dict>
 	<key>CFBundleURLTypes</key>
 	<array>
-		<dict/>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>None</string>
+		</dict>
 	</array>
-    <key>UILaunchScreen</key>
-    <dict>
-        <key>BackgroundColor</key>
-        <string>#0F0622</string>
-        <key>UILabels</key>
-        <array>
-            <dict>
-                <key>Text</key>
-                <string>Level Super Mind</string>
-                <key>FontName</key>
-                <string>Helvetica-Bold</string>
-                <key>FontSize</key>
-                <integer>24</integer>
-                <key>TextColor</key>
-                <string>#FFFFFF</string>
-                <key>Alignment</key>
-                <string>Center</string>
-            </dict>
-        </array>
-    </dict>
-
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>BackgroundColor</key>
+		<string>#0F0622</string>
+		<key>UILabels</key>
+		<array>
+			<dict>
+				<key>Alignment</key>
+				<string>Center</string>
+				<key>FontName</key>
+				<string>Helvetica-Bold</string>
+				<key>FontSize</key>
+				<integer>24</integer>
+				<key>Text</key>
+				<string>Level Super Mind</string>
+				<key>TextColor</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</array>
+	</dict>
 </dict>
 </plist>

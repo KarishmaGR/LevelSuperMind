@@ -16,7 +16,7 @@ struct Profile: View {
                     ProfileSetting()
                         .padding(.vertical)
                     HStack() {
-                        StateCard(icon: "fire_icon", text: "17", subtitle: "Day Streak")
+                        StateCard(icon: "Fire_icon", text: "17", subtitle: "Day Streak")
                         Spacer()
                         StateCard(icon: "gold_icon", text: "#04", subtitle: "Gold League")
                     }

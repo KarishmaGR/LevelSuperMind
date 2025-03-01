@@ -24,7 +24,7 @@ struct GetStarted: View {
                                 Text("2")
                                     .font(.headline)
                                     .foregroundStyle(.white)
-                                Image("fire_icon")
+                                Image("Fire_icon")
                                     .resizable()
                                     .scaledToFit()
                                     .frame(width: 30 , height: 30)
